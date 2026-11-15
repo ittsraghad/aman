@@ -1,0 +1,2 @@
+# Core app (server, search, RAG, evaluation) needs only numpy:
+numpy>=1.24

@@ -1,0 +1,21 @@
+[
+ {"q": "What is CVE-2024-3094?", "relevant": ["CVE-2024-3094"]},
+ {"q": "Explain CVE-2021-44228", "relevant": ["CVE-2021-44228"]},
+ {"q": "Tell me about the Heartbleed bug", "relevant": ["CVE-2014-0160"]},
+ {"q": "How does SQL Injection work?", "relevant": ["OWASP-SQLI"]},
+ {"q": "What is the difference between XSS and CSRF?", "relevant": ["OWASP-XSS", "OWASP-CSRF"]},
+ {"q": "What are the risks of weak authentication?", "relevant": ["OWASP-A07"]},
+ {"q": "What happens when a system uses outdated software?", "relevant": ["OWASP-A06"]},
+ {"q": "How can I detect suspicious network activity?", "relevant": ["GUIDE-NETDET"]},
+ {"q": "What are the common techniques used in phishing attacks?", "relevant": ["GUIDE-PHISH", "T1566"]},
+ {"q": "What is Credential Access?", "relevant": ["TA0006"]},
+ {"q": "What is password spraying?", "relevant": ["T1110.003"]},
+ {"q": "How do I fix Log4Shell?", "relevant": ["CVE-2021-44228", "GUIDE-LOG4J"]},
+ {"q": "ما هو هجوم حقن SQL؟", "relevant": ["OWASP-SQLI"], "lang": "ar"},
+ {"q": "ما هي مخاطر كلمات المرور الضعيفة؟", "relevant": ["OWASP-A07"], "lang": "ar"},
+ {"q": "كيف أكتشف نشاط الشبكة المشبوه؟", "relevant": ["GUIDE-NETDET"], "lang": "ar"},
+ {"q": "How do I cook pasta?", "relevant": []},
+ {"q": "What is the capital of France?", "relevant": []},
+ {"q": "Who won the football world cup?", "relevant": []},
+ {"q": "ما هو أفضل مطعم في الرياض؟", "relevant": [], "lang": "ar"}
+]

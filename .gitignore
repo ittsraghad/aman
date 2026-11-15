@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+data/raw/
+data/aman.db
+data/processed/*.partial.npy
+# data/processed/ (chunks.jsonl + finished vectors_*.npy) IS committed: the deployed app ships a prebuilt corpus.

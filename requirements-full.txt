@@ -1,0 +1,6 @@
+-r requirements.txt
+# Real semantic embeddings + cross-encoder reranking (AMAN_EMBEDDER=st, AMAN_RERANKER=cross):
+sentence-transformers>=3.0
+# Optional FastAPI deployment (see src/aman/api_fastapi.py):
+fastapi>=0.110
+uvicorn[standard]>=0.29

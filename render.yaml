@@ -1,0 +1,29 @@
+# Render Blueprint (not deployed from the authoring sandbox - verify on first deploy).
+services:
+  - type: web
+    name: aman
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: AMAN_NO_BUILD        # corpus + vectors are prebuilt and committed; never embed the corpus at runtime
+        value: "1"
+      - key: AMAN_TRUST_PROXY     # read the real client IP for rate limiting
+        value: "1"
+      - key: AMAN_LLM
+        value: gemini
+      - key: AMAN_EMBEDDER
+        value: gemini
+      - key: AMAN_RATE_PER_MIN
+        value: "10"
+      - key: AMAN_DAILY_LLM_CAP
+        value: "800"
+      - key: GEMINI_API_KEY
+        sync: false               # you paste it in the Render dashboard; it is never committed
+      - key: AMAN_AUTHOR
+        sync: false
+      - key: AMAN_LINKEDIN
+        sync: false
+      - key: AMAN_GITHUB
+        sync: false
