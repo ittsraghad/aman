@@ -3,6 +3,11 @@
 **A bilingual (Arabic / English) cybersecurity assistant that answers from trusted sources and shows its evidence.**
 مساعد ذكاء اصطناعي للأمن السيبراني يجاوب من مصادر موثوقة ويعرض لك المراجع.
 
+## Live Demo
+Try AMAN: https://aman-yg9r.onrender.com/
+
+GitHub: https://github.com/ittsraghad/aman
+
 AMAN is a Retrieval-Augmented Generation (RAG) system built around MITRE ATT&CK, the NVD, CISA's Known Exploited
 Vulnerabilities catalog and the OWASP Cheat Sheet Series. It cites the passages it used, says "I don't know" when the
 sources do not cover a question, and refuses to help build attack tools.
